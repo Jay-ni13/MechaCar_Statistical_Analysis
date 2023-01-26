@@ -18,10 +18,10 @@ Output from the linear regression model indicates that of the five design specif
 Multiple lots are involved in production of the prototype MechaCars; to determine if the manufacturing process is consistent across these lots, the weight capacities of numerous suspension coils are tested against each other.
 
 The suspension coil’s PSI continuous variable across all lots:
-<img src="https://github.com/Jay-ni13/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_total_summary.png" width=25%>
+<img src="https://github.com/Jay-ni13/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_total_summary.png" width=40%>
 
 The PSI metrics for each manufacturing lot:
-<img src="https://github.com/Jay-ni13/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_lot_summary.png" width=30%>
+<img src="https://github.com/Jay-ni13/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_lot_summary.png" width=50%>
 
 Design specifications for the MechaCar suspension coils mandate that the variance of the suspension coils must not exceed 100 pounds per square inch. Initial analysis of all prototypes produced indicates that manufacturing as a whole is within these guidelines, further analysis shows that while lots 1 and 2 are in accordance with this rule, lot 3 is not meeting specifications as the variance of its suspension coils is 170 PSI.
 
