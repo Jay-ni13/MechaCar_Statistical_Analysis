@@ -55,4 +55,5 @@ While pursuing improvement of manufacturing standards for suspension coils, Auto
 The hypothesis for this statistical study is: Ensuring all MechaCars are ISO 9001 and IATF 16949 compliant will ensure consistently high safety ratings and minimal to no maintainance costs for the car's first 3 years/60,000 miles.
  - H<sub>0</sub>: The quality control standards maintained by ISO 9001 and IATF 16949 have no impact on safety ratings and maintainance costs.
  - H<sub>a</sub>: The quality control standards maintained by ISO 9001 and IATF 16949 have positive correlation with safety ratings and a negative correlation with   maintainance costs.
+
 A multiple linear regression model would be the best way to perform this analysis so that multiple independent variables can be tested for impact. The data needed to run this statistical test would include quality standards on vehicle components (in addition to the suspension coils) from MechaCar prototypes and their competition, as well as historical data from 5 automanufacturing companies on how standards compliance correlates with safety ratings and maintainance costs. 
