@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 ## Project Overview
-Analysis of AutoRUs' of production data for their new MechaCar prototype to identify key issues--such as vehicle performance, consistent standards, and comparison to competing models--that could be impacting manufacturing progress.
+Analysis of AutoRUs' of production data for their new MechaCar prototype to identify key issues--such as vehicle performance, consistent standards, and comparison to competing vehicle models--that could be impacting manufacturing progress.
 
 ## Resources
  - Data Source: MechaCar_mpg.csv, Suspension_Coil.csv
