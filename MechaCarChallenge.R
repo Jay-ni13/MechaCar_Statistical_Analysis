@@ -23,6 +23,20 @@ summary(mpg_reg)$r.squared
 suspensionCoil_df <- read.csv("Suspension_Coil.csv")
 # Summarize dataframe
 total_summary <- suspensionCoil_df %>% summarise(Mean=mean(PSI),Median=median(PSI),
-                                                 Variance=var(PSI),SD=sd(PSI))
+                                               Variance=var(PSI),SD=sd(PSI))
 lot_summary <- suspensionCoil_df %>% group_by(Manufacturing_Lot) %>% 
   summarise(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+
+# Deliverable 3
+# t-tests
+total_ttest <- t.test(suspensionCoil_df$PSI,mu=1500)
+total_ttest
+
+lot1_ttest <- t.test(subset(suspensionCoil_df,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+lot1_ttest
+
+lot2_ttest <- t.test(subset(suspensionCoil_df,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+lot2_ttest
+
+lot3_ttest <- t.test(subset(suspensionCoil_df,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
+lot3_ttest
