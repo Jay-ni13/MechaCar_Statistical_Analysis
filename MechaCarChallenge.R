@@ -1,5 +1,5 @@
 library(dplyr)
-
+# Deliverable 1
 # Read in the MechaCar_mpg.csv file
 mechaCar_df <- read.csv("MechaCar_mpg.csv")
 
@@ -17,3 +17,12 @@ summary(mpg_reg)$coefficients[,4]
 # AWD p-value <- 0.1852
 summary(mpg_reg)$r.squared
 # r-squared value <- 0.7149033
+
+# Deliverable 2
+# Read in the Suspension_Coil.csv file
+suspensionCoil_df <- read.csv("Suspension_Coil.csv")
+# Summarize dataframe
+total_summary <- suspensionCoil_df %>% summarise(Mean=mean(PSI),Median=median(PSI),
+                                                 Variance=var(PSI),SD=sd(PSI))
+lot_summary <- suspensionCoil_df %>% group_by(Manufacturing_Lot) %>% 
+  summarise(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
